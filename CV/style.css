@@ -1,0 +1,71 @@
+/* Estilos para el encabezado */
+header {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para la sección de resumen */
+section#resumen {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para las habilidades técnicas */
+ul.habilidades {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li.habilidad {
+  background-color: #f0f0f0;
+  color: #1c1c1c;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la sección de experiencia laboral */
+section#experiencia {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+ul.experiencia {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+
+li.puesto {
+  font-weight: bold;
+}
+
+li.empresa {
+  color: #1c1c1c;
+}
+
+p.periodo {
+  color: #1c1c1c;
+  font-style: italic;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.8em;
+}
